@@ -1,0 +1,43 @@
+{
+  "name": "To-Do-Notes",
+  "version": "1.0.0",
+  "description": "A simple Vue to-do list and notes",
+  "author": "Kamineni Sai Kiranmayee",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "@mdi/font": "^2.8.94",
+    "axios": "0.21.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.0.1",
+    "vue-styled-components": "^1.4.0",
+    "vue-wysiwyg": "^1.7.2",
+    "vuetify": "^2.3.7",
+    "vuex": "^3.0.1",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/k-sai-kiranmayee/ToDo-Notes/issues"
+  },
+  "homepage": "https://github.com/k-sai-kiranmayee/ToDo-Notes#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k-sai-kiranmayee/ToDo-Notes.git"
+  }
+}
